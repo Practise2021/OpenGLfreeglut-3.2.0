@@ -1,0 +1,277 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{F49342C9-5BB2-39EE-B2FC-00C30450A8C3}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\shaodd\opengl\freeglut-3.2.0\src;E:\shaodd\opengl\freeglut-3.2.0\include;E:\shaodd\thirdbinary\OpenGl;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\shaodd\opengl\freeglut-3.2.0\src;E:\shaodd\opengl\freeglut-3.2.0\include;E:\shaodd\thirdbinary\OpenGl;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\shaodd\opengl\freeglut-3.2.0\src;E:\shaodd\opengl\freeglut-3.2.0\include;E:\shaodd\thirdbinary\OpenGl;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\shaodd\opengl\freeglut-3.2.0\src;E:\shaodd\opengl\freeglut-3.2.0\include;E:\shaodd\thirdbinary\OpenGl;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\shaodd\opengl\freeglut-3.2.0\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule E:/shaodd/opengl/freeglut-3.2.0/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+D:\software\cmake\cmake-3.20.0-rc4-windows-x86_64\bin\cmake.exe -SE:/shaodd/opengl/freeglut-3.2.0 -BE:/shaodd/thirdbinary/OpenGl --check-stamp-file E:/shaodd/thirdbinary/OpenGl/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\software\cmake\cmake-3.20.0-rc4-windows-x86_64\share\cmake-3.20\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;D:\software\cmake\cmake-3.20.0-rc4-windows-x86_64\share\cmake-3.20\Modules\CMakeCInformation.cmake;D:\software\cmake\cmake-3.20.0-rc4-windows-x86_64\share\cmake-3.20\Modules\CMakeCXXInformation.cmake;D:\software\cmake\cmake-3.20.0-rc4-windows-x86_64\share\cmake-3.20\Modules\CMakeCommonLanguageInclude.cmake;D:\software\cmake\cmake-3.20.0-rc4-windows-x86_64\share\cmake-3.20\Modules\CMakeGenericSystem.cmake;D:\software\cmake\cmake-3.20.0-rc4-windows-x86_64\share\cmake-3.20\Modules\CMakeInitializeConfigs.cmake;D:\software\cmake\cmake-3.20.0-rc4-windows-x86_64\share\cmake-3.20\Modules\CMakeLanguageInformation.cmake;D:\software\cmake\cmake-3.20.0-rc4-windows-x86_64\share\cmake-3.20\Modules\CMakePackageConfigHelpers.cmake;D:\software\cmake\cmake-3.20.0-rc4-windows-x86_64\share\cmake-3.20\Modules\CMakeRCInformation.cmake;D:\software\cmake\cmake-3.20.0-rc4-windows-x86_64\share\cmake-3.20\Modules\CMakeSystemSpecificInformation.cmake;D:\software\cmake\cmake-3.20.0-rc4-windows-x86_64\share\cmake-3.20\Modules\CMakeSystemSpecificInitialize.cmake;D:\software\cmake\cmake-3.20.0-rc4-windows-x86_64\share\cmake-3.20\Modules\CheckFunctionExists.cmake;D:\software\cmake\cmake-3.20.0-rc4-windows-x86_64\share\cmake-3.20\Modules\CheckIncludeFile.cmake;D:\software\cmake\cmake-3.20.0-rc4-windows-x86_64\share\cmake-3.20\Modules\CheckIncludeFileCXX.cmake;D:\software\cmake\cmake-3.20.0-rc4-windows-x86_64\share\cmake-3.20\Modules\CheckIncludeFiles.cmake;D:\software\cmake\cmake-3.20.0-rc4-windows-x86_64\share\cmake-3.20\Modules\CheckTypeSize.cmake;D:\software\cmake\cmake-3.20.0-rc4-windows-x86_64\share\cmake-3.20\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\software\cmake\cmake-3.20.0-rc4-windows-x86_64\share\cmake-3.20\Modules\Compiler\MSVC-C.cmake;D:\software\cmake\cmake-3.20.0-rc4-windows-x86_64\share\cmake-3.20\Modules\Compiler\MSVC-CXX.cmake;D:\software\cmake\cmake-3.20.0-rc4-windows-x86_64\share\cmake-3.20\Modules\FindOpenGL.cmake;D:\software\cmake\cmake-3.20.0-rc4-windows-x86_64\share\cmake-3.20\Modules\FindPackageHandleStandardArgs.cmake;D:\software\cmake\cmake-3.20.0-rc4-windows-x86_64\share\cmake-3.20\Modules\FindPackageMessage.cmake;D:\software\cmake\cmake-3.20.0-rc4-windows-x86_64\share\cmake-3.20\Modules\GNUInstallDirs.cmake;D:\software\cmake\cmake-3.20.0-rc4-windows-x86_64\share\cmake-3.20\Modules\Platform\Windows-MSVC-C.cmake;D:\software\cmake\cmake-3.20.0-rc4-windows-x86_64\share\cmake-3.20\Modules\Platform\Windows-MSVC-CXX.cmake;D:\software\cmake\cmake-3.20.0-rc4-windows-x86_64\share\cmake-3.20\Modules\Platform\Windows-MSVC.cmake;D:\software\cmake\cmake-3.20.0-rc4-windows-x86_64\share\cmake-3.20\Modules\Platform\Windows.cmake;D:\software\cmake\cmake-3.20.0-rc4-windows-x86_64\share\cmake-3.20\Modules\Platform\WindowsPaths.cmake;D:\software\cmake\cmake-3.20.0-rc4-windows-x86_64\share\cmake-3.20\Modules\WriteBasicConfigVersionFile.cmake;E:\shaodd\opengl\freeglut-3.2.0\FreeGLUTConfig.cmake.in;E:\shaodd\opengl\freeglut-3.2.0\config.h.in;E:\shaodd\opengl\freeglut-3.2.0\freeglut.pc.in;E:\shaodd\opengl\freeglut-3.2.0\freeglut.rc.in;E:\shaodd\opengl\freeglut-3.2.0\src\fg_version.h.in;E:\shaodd\opengl\freeglut-3.2.0\src\freeglutdll.def.in;E:\shaodd\thirdbinary\OpenGl\CMakeFiles\3.20.0-rc4\CMakeCCompiler.cmake;E:\shaodd\thirdbinary\OpenGl\CMakeFiles\3.20.0-rc4\CMakeCXXCompiler.cmake;E:\shaodd\thirdbinary\OpenGl\CMakeFiles\3.20.0-rc4\CMakeRCCompiler.cmake;E:\shaodd\thirdbinary\OpenGl\CMakeFiles\3.20.0-rc4\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\shaodd\thirdbinary\OpenGl\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule E:/shaodd/opengl/freeglut-3.2.0/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+D:\software\cmake\cmake-3.20.0-rc4-windows-x86_64\bin\cmake.exe -SE:/shaodd/opengl/freeglut-3.2.0 -BE:/shaodd/thirdbinary/OpenGl --check-stamp-file E:/shaodd/thirdbinary/OpenGl/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\software\cmake\cmake-3.20.0-rc4-windows-x86_64\share\cmake-3.20\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;D:\software\cmake\cmake-3.20.0-rc4-windows-x86_64\share\cmake-3.20\Modules\CMakeCInformation.cmake;D:\software\cmake\cmake-3.20.0-rc4-windows-x86_64\share\cmake-3.20\Modules\CMakeCXXInformation.cmake;D:\software\cmake\cmake-3.20.0-rc4-windows-x86_64\share\cmake-3.20\Modules\CMakeCommonLanguageInclude.cmake;D:\software\cmake\cmake-3.20.0-rc4-windows-x86_64\share\cmake-3.20\Modules\CMakeGenericSystem.cmake;D:\software\cmake\cmake-3.20.0-rc4-windows-x86_64\share\cmake-3.20\Modules\CMakeInitializeConfigs.cmake;D:\software\cmake\cmake-3.20.0-rc4-windows-x86_64\share\cmake-3.20\Modules\CMakeLanguageInformation.cmake;D:\software\cmake\cmake-3.20.0-rc4-windows-x86_64\share\cmake-3.20\Modules\CMakePackageConfigHelpers.cmake;D:\software\cmake\cmake-3.20.0-rc4-windows-x86_64\share\cmake-3.20\Modules\CMakeRCInformation.cmake;D:\software\cmake\cmake-3.20.0-rc4-windows-x86_64\share\cmake-3.20\Modules\CMakeSystemSpecificInformation.cmake;D:\software\cmake\cmake-3.20.0-rc4-windows-x86_64\share\cmake-3.20\Modules\CMakeSystemSpecificInitialize.cmake;D:\software\cmake\cmake-3.20.0-rc4-windows-x86_64\share\cmake-3.20\Modules\CheckFunctionExists.cmake;D:\software\cmake\cmake-3.20.0-rc4-windows-x86_64\share\cmake-3.20\Modules\CheckIncludeFile.cmake;D:\software\cmake\cmake-3.20.0-rc4-windows-x86_64\share\cmake-3.20\Modules\CheckIncludeFileCXX.cmake;D:\software\cmake\cmake-3.20.0-rc4-windows-x86_64\share\cmake-3.20\Modules\CheckIncludeFiles.cmake;D:\software\cmake\cmake-3.20.0-rc4-windows-x86_64\share\cmake-3.20\Modules\CheckTypeSize.cmake;D:\software\cmake\cmake-3.20.0-rc4-windows-x86_64\share\cmake-3.20\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\software\cmake\cmake-3.20.0-rc4-windows-x86_64\share\cmake-3.20\Modules\Compiler\MSVC-C.cmake;D:\software\cmake\cmake-3.20.0-rc4-windows-x86_64\share\cmake-3.20\Modules\Compiler\MSVC-CXX.cmake;D:\software\cmake\cmake-3.20.0-rc4-windows-x86_64\share\cmake-3.20\Modules\FindOpenGL.cmake;D:\software\cmake\cmake-3.20.0-rc4-windows-x86_64\share\cmake-3.20\Modules\FindPackageHandleStandardArgs.cmake;D:\software\cmake\cmake-3.20.0-rc4-windows-x86_64\share\cmake-3.20\Modules\FindPackageMessage.cmake;D:\software\cmake\cmake-3.20.0-rc4-windows-x86_64\share\cmake-3.20\Modules\GNUInstallDirs.cmake;D:\software\cmake\cmake-3.20.0-rc4-windows-x86_64\share\cmake-3.20\Modules\Platform\Windows-MSVC-C.cmake;D:\software\cmake\cmake-3.20.0-rc4-windows-x86_64\share\cmake-3.20\Modules\Platform\Windows-MSVC-CXX.cmake;D:\software\cmake\cmake-3.20.0-rc4-windows-x86_64\share\cmake-3.20\Modules\Platform\Windows-MSVC.cmake;D:\software\cmake\cmake-3.20.0-rc4-windows-x86_64\share\cmake-3.20\Modules\Platform\Windows.cmake;D:\software\cmake\cmake-3.20.0-rc4-windows-x86_64\share\cmake-3.20\Modules\Platform\WindowsPaths.cmake;D:\software\cmake\cmake-3.20.0-rc4-windows-x86_64\share\cmake-3.20\Modules\WriteBasicConfigVersionFile.cmake;E:\shaodd\opengl\freeglut-3.2.0\FreeGLUTConfig.cmake.in;E:\shaodd\opengl\freeglut-3.2.0\config.h.in;E:\shaodd\opengl\freeglut-3.2.0\freeglut.pc.in;E:\shaodd\opengl\freeglut-3.2.0\freeglut.rc.in;E:\shaodd\opengl\freeglut-3.2.0\src\fg_version.h.in;E:\shaodd\opengl\freeglut-3.2.0\src\freeglutdll.def.in;E:\shaodd\thirdbinary\OpenGl\CMakeFiles\3.20.0-rc4\CMakeCCompiler.cmake;E:\shaodd\thirdbinary\OpenGl\CMakeFiles\3.20.0-rc4\CMakeCXXCompiler.cmake;E:\shaodd\thirdbinary\OpenGl\CMakeFiles\3.20.0-rc4\CMakeRCCompiler.cmake;E:\shaodd\thirdbinary\OpenGl\CMakeFiles\3.20.0-rc4\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\shaodd\thirdbinary\OpenGl\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule E:/shaodd/opengl/freeglut-3.2.0/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+D:\software\cmake\cmake-3.20.0-rc4-windows-x86_64\bin\cmake.exe -SE:/shaodd/opengl/freeglut-3.2.0 -BE:/shaodd/thirdbinary/OpenGl --check-stamp-file E:/shaodd/thirdbinary/OpenGl/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\software\cmake\cmake-3.20.0-rc4-windows-x86_64\share\cmake-3.20\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;D:\software\cmake\cmake-3.20.0-rc4-windows-x86_64\share\cmake-3.20\Modules\CMakeCInformation.cmake;D:\software\cmake\cmake-3.20.0-rc4-windows-x86_64\share\cmake-3.20\Modules\CMakeCXXInformation.cmake;D:\software\cmake\cmake-3.20.0-rc4-windows-x86_64\share\cmake-3.20\Modules\CMakeCommonLanguageInclude.cmake;D:\software\cmake\cmake-3.20.0-rc4-windows-x86_64\share\cmake-3.20\Modules\CMakeGenericSystem.cmake;D:\software\cmake\cmake-3.20.0-rc4-windows-x86_64\share\cmake-3.20\Modules\CMakeInitializeConfigs.cmake;D:\software\cmake\cmake-3.20.0-rc4-windows-x86_64\share\cmake-3.20\Modules\CMakeLanguageInformation.cmake;D:\software\cmake\cmake-3.20.0-rc4-windows-x86_64\share\cmake-3.20\Modules\CMakePackageConfigHelpers.cmake;D:\software\cmake\cmake-3.20.0-rc4-windows-x86_64\share\cmake-3.20\Modules\CMakeRCInformation.cmake;D:\software\cmake\cmake-3.20.0-rc4-windows-x86_64\share\cmake-3.20\Modules\CMakeSystemSpecificInformation.cmake;D:\software\cmake\cmake-3.20.0-rc4-windows-x86_64\share\cmake-3.20\Modules\CMakeSystemSpecificInitialize.cmake;D:\software\cmake\cmake-3.20.0-rc4-windows-x86_64\share\cmake-3.20\Modules\CheckFunctionExists.cmake;D:\software\cmake\cmake-3.20.0-rc4-windows-x86_64\share\cmake-3.20\Modules\CheckIncludeFile.cmake;D:\software\cmake\cmake-3.20.0-rc4-windows-x86_64\share\cmake-3.20\Modules\CheckIncludeFileCXX.cmake;D:\software\cmake\cmake-3.20.0-rc4-windows-x86_64\share\cmake-3.20\Modules\CheckIncludeFiles.cmake;D:\software\cmake\cmake-3.20.0-rc4-windows-x86_64\share\cmake-3.20\Modules\CheckTypeSize.cmake;D:\software\cmake\cmake-3.20.0-rc4-windows-x86_64\share\cmake-3.20\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\software\cmake\cmake-3.20.0-rc4-windows-x86_64\share\cmake-3.20\Modules\Compiler\MSVC-C.cmake;D:\software\cmake\cmake-3.20.0-rc4-windows-x86_64\share\cmake-3.20\Modules\Compiler\MSVC-CXX.cmake;D:\software\cmake\cmake-3.20.0-rc4-windows-x86_64\share\cmake-3.20\Modules\FindOpenGL.cmake;D:\software\cmake\cmake-3.20.0-rc4-windows-x86_64\share\cmake-3.20\Modules\FindPackageHandleStandardArgs.cmake;D:\software\cmake\cmake-3.20.0-rc4-windows-x86_64\share\cmake-3.20\Modules\FindPackageMessage.cmake;D:\software\cmake\cmake-3.20.0-rc4-windows-x86_64\share\cmake-3.20\Modules\GNUInstallDirs.cmake;D:\software\cmake\cmake-3.20.0-rc4-windows-x86_64\share\cmake-3.20\Modules\Platform\Windows-MSVC-C.cmake;D:\software\cmake\cmake-3.20.0-rc4-windows-x86_64\share\cmake-3.20\Modules\Platform\Windows-MSVC-CXX.cmake;D:\software\cmake\cmake-3.20.0-rc4-windows-x86_64\share\cmake-3.20\Modules\Platform\Windows-MSVC.cmake;D:\software\cmake\cmake-3.20.0-rc4-windows-x86_64\share\cmake-3.20\Modules\Platform\Windows.cmake;D:\software\cmake\cmake-3.20.0-rc4-windows-x86_64\share\cmake-3.20\Modules\Platform\WindowsPaths.cmake;D:\software\cmake\cmake-3.20.0-rc4-windows-x86_64\share\cmake-3.20\Modules\WriteBasicConfigVersionFile.cmake;E:\shaodd\opengl\freeglut-3.2.0\FreeGLUTConfig.cmake.in;E:\shaodd\opengl\freeglut-3.2.0\config.h.in;E:\shaodd\opengl\freeglut-3.2.0\freeglut.pc.in;E:\shaodd\opengl\freeglut-3.2.0\freeglut.rc.in;E:\shaodd\opengl\freeglut-3.2.0\src\fg_version.h.in;E:\shaodd\opengl\freeglut-3.2.0\src\freeglutdll.def.in;E:\shaodd\thirdbinary\OpenGl\CMakeFiles\3.20.0-rc4\CMakeCCompiler.cmake;E:\shaodd\thirdbinary\OpenGl\CMakeFiles\3.20.0-rc4\CMakeCXXCompiler.cmake;E:\shaodd\thirdbinary\OpenGl\CMakeFiles\3.20.0-rc4\CMakeRCCompiler.cmake;E:\shaodd\thirdbinary\OpenGl\CMakeFiles\3.20.0-rc4\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\shaodd\thirdbinary\OpenGl\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule E:/shaodd/opengl/freeglut-3.2.0/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+D:\software\cmake\cmake-3.20.0-rc4-windows-x86_64\bin\cmake.exe -SE:/shaodd/opengl/freeglut-3.2.0 -BE:/shaodd/thirdbinary/OpenGl --check-stamp-file E:/shaodd/thirdbinary/OpenGl/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\software\cmake\cmake-3.20.0-rc4-windows-x86_64\share\cmake-3.20\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;D:\software\cmake\cmake-3.20.0-rc4-windows-x86_64\share\cmake-3.20\Modules\CMakeCInformation.cmake;D:\software\cmake\cmake-3.20.0-rc4-windows-x86_64\share\cmake-3.20\Modules\CMakeCXXInformation.cmake;D:\software\cmake\cmake-3.20.0-rc4-windows-x86_64\share\cmake-3.20\Modules\CMakeCommonLanguageInclude.cmake;D:\software\cmake\cmake-3.20.0-rc4-windows-x86_64\share\cmake-3.20\Modules\CMakeGenericSystem.cmake;D:\software\cmake\cmake-3.20.0-rc4-windows-x86_64\share\cmake-3.20\Modules\CMakeInitializeConfigs.cmake;D:\software\cmake\cmake-3.20.0-rc4-windows-x86_64\share\cmake-3.20\Modules\CMakeLanguageInformation.cmake;D:\software\cmake\cmake-3.20.0-rc4-windows-x86_64\share\cmake-3.20\Modules\CMakePackageConfigHelpers.cmake;D:\software\cmake\cmake-3.20.0-rc4-windows-x86_64\share\cmake-3.20\Modules\CMakeRCInformation.cmake;D:\software\cmake\cmake-3.20.0-rc4-windows-x86_64\share\cmake-3.20\Modules\CMakeSystemSpecificInformation.cmake;D:\software\cmake\cmake-3.20.0-rc4-windows-x86_64\share\cmake-3.20\Modules\CMakeSystemSpecificInitialize.cmake;D:\software\cmake\cmake-3.20.0-rc4-windows-x86_64\share\cmake-3.20\Modules\CheckFunctionExists.cmake;D:\software\cmake\cmake-3.20.0-rc4-windows-x86_64\share\cmake-3.20\Modules\CheckIncludeFile.cmake;D:\software\cmake\cmake-3.20.0-rc4-windows-x86_64\share\cmake-3.20\Modules\CheckIncludeFileCXX.cmake;D:\software\cmake\cmake-3.20.0-rc4-windows-x86_64\share\cmake-3.20\Modules\CheckIncludeFiles.cmake;D:\software\cmake\cmake-3.20.0-rc4-windows-x86_64\share\cmake-3.20\Modules\CheckTypeSize.cmake;D:\software\cmake\cmake-3.20.0-rc4-windows-x86_64\share\cmake-3.20\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\software\cmake\cmake-3.20.0-rc4-windows-x86_64\share\cmake-3.20\Modules\Compiler\MSVC-C.cmake;D:\software\cmake\cmake-3.20.0-rc4-windows-x86_64\share\cmake-3.20\Modules\Compiler\MSVC-CXX.cmake;D:\software\cmake\cmake-3.20.0-rc4-windows-x86_64\share\cmake-3.20\Modules\FindOpenGL.cmake;D:\software\cmake\cmake-3.20.0-rc4-windows-x86_64\share\cmake-3.20\Modules\FindPackageHandleStandardArgs.cmake;D:\software\cmake\cmake-3.20.0-rc4-windows-x86_64\share\cmake-3.20\Modules\FindPackageMessage.cmake;D:\software\cmake\cmake-3.20.0-rc4-windows-x86_64\share\cmake-3.20\Modules\GNUInstallDirs.cmake;D:\software\cmake\cmake-3.20.0-rc4-windows-x86_64\share\cmake-3.20\Modules\Platform\Windows-MSVC-C.cmake;D:\software\cmake\cmake-3.20.0-rc4-windows-x86_64\share\cmake-3.20\Modules\Platform\Windows-MSVC-CXX.cmake;D:\software\cmake\cmake-3.20.0-rc4-windows-x86_64\share\cmake-3.20\Modules\Platform\Windows-MSVC.cmake;D:\software\cmake\cmake-3.20.0-rc4-windows-x86_64\share\cmake-3.20\Modules\Platform\Windows.cmake;D:\software\cmake\cmake-3.20.0-rc4-windows-x86_64\share\cmake-3.20\Modules\Platform\WindowsPaths.cmake;D:\software\cmake\cmake-3.20.0-rc4-windows-x86_64\share\cmake-3.20\Modules\WriteBasicConfigVersionFile.cmake;E:\shaodd\opengl\freeglut-3.2.0\FreeGLUTConfig.cmake.in;E:\shaodd\opengl\freeglut-3.2.0\config.h.in;E:\shaodd\opengl\freeglut-3.2.0\freeglut.pc.in;E:\shaodd\opengl\freeglut-3.2.0\freeglut.rc.in;E:\shaodd\opengl\freeglut-3.2.0\src\fg_version.h.in;E:\shaodd\opengl\freeglut-3.2.0\src\freeglutdll.def.in;E:\shaodd\thirdbinary\OpenGl\CMakeFiles\3.20.0-rc4\CMakeCCompiler.cmake;E:\shaodd\thirdbinary\OpenGl\CMakeFiles\3.20.0-rc4\CMakeCXXCompiler.cmake;E:\shaodd\thirdbinary\OpenGl\CMakeFiles\3.20.0-rc4\CMakeRCCompiler.cmake;E:\shaodd\thirdbinary\OpenGl\CMakeFiles\3.20.0-rc4\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\shaodd\thirdbinary\OpenGl\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:\shaodd\thirdbinary\OpenGl\ZERO_CHECK.vcxproj">
+      <Project>{34957BB7-8CA1-30EA-B3C0-D9921E5F9138}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\shaodd\thirdbinary\OpenGl\CallbackMaker.vcxproj">
+      <Project>{FCB116FA-6ED3-3202-8D38-41CA25732269}</Project>
+      <Name>CallbackMaker</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\shaodd\thirdbinary\OpenGl\CallbackMaker_static.vcxproj">
+      <Project>{2764CD9C-D0EC-3737-AC4A-21918F6A1E3D}</Project>
+      <Name>CallbackMaker_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\shaodd\thirdbinary\OpenGl\Fractals.vcxproj">
+      <Project>{919E4E9F-E202-31AD-97AC-91FC22F05A74}</Project>
+      <Name>Fractals</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\shaodd\thirdbinary\OpenGl\Fractals_random.vcxproj">
+      <Project>{FD734C92-5C3F-3966-9819-7100291BBEA0}</Project>
+      <Name>Fractals_random</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\shaodd\thirdbinary\OpenGl\Fractals_random_static.vcxproj">
+      <Project>{C3AD3F5F-53D7-3831-9AB2-B43CC07B482A}</Project>
+      <Name>Fractals_random_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\shaodd\thirdbinary\OpenGl\Fractals_static.vcxproj">
+      <Project>{39C69FC8-D0BC-3E6C-9288-8083C47D332E}</Project>
+      <Name>Fractals_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\shaodd\thirdbinary\OpenGl\Lorenz.vcxproj">
+      <Project>{34952016-0B6A-3F75-BEB8-EC0AD61A3161}</Project>
+      <Name>Lorenz</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\shaodd\thirdbinary\OpenGl\Lorenz_static.vcxproj">
+      <Project>{5BA67631-7A1D-37EA-8540-CAC55EE6D27E}</Project>
+      <Name>Lorenz_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\shaodd\thirdbinary\OpenGl\One.vcxproj">
+      <Project>{F7801529-38E3-34B4-BCE9-761B92BB6E5B}</Project>
+      <Name>One</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\shaodd\thirdbinary\OpenGl\One_static.vcxproj">
+      <Project>{609E7100-8337-3230-860E-9F9616AE729F}</Project>
+      <Name>One_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\shaodd\thirdbinary\OpenGl\Resizer.vcxproj">
+      <Project>{FF1EC25C-DDAE-3F0A-8CDD-98E2A545DDBB}</Project>
+      <Name>Resizer</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\shaodd\thirdbinary\OpenGl\Resizer_static.vcxproj">
+      <Project>{5DC1D365-0CCD-3B61-9C9E-939A5244050E}</Project>
+      <Name>Resizer_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\shaodd\thirdbinary\OpenGl\freeglut.vcxproj">
+      <Project>{319E7AE5-53C0-3A84-81A7-7776E776CF84}</Project>
+      <Name>freeglut</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\shaodd\thirdbinary\OpenGl\freeglut_static.vcxproj">
+      <Project>{0752608F-AA2E-3E41-BBC3-3AF6F53FAA22}</Project>
+      <Name>freeglut_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\shaodd\thirdbinary\OpenGl\multi-touch.vcxproj">
+      <Project>{DBBE3319-F8E7-3715-86CC-7F12C87EC077}</Project>
+      <Name>multi-touch</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\shaodd\thirdbinary\OpenGl\multi-touch_static.vcxproj">
+      <Project>{1D23F16E-828B-31DC-A01F-3C9332EBCE9D}</Project>
+      <Name>multi-touch_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\shaodd\thirdbinary\OpenGl\shapes.vcxproj">
+      <Project>{9047046C-314E-318B-836A-88880EF60C97}</Project>
+      <Name>shapes</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\shaodd\thirdbinary\OpenGl\shapes_static.vcxproj">
+      <Project>{1DA5FD8B-AA47-3C17-B494-395375FB46A4}</Project>
+      <Name>shapes_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\shaodd\thirdbinary\OpenGl\smooth_opengl3.vcxproj">
+      <Project>{D3A630AD-8BC4-36B5-9594-AE01415C1FB8}</Project>
+      <Name>smooth_opengl3</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\shaodd\thirdbinary\OpenGl\smooth_opengl3_static.vcxproj">
+      <Project>{7EB0A1EB-1C5E-3C7C-98A8-906981ECE790}</Project>
+      <Name>smooth_opengl3_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\shaodd\thirdbinary\OpenGl\subwin.vcxproj">
+      <Project>{1FB5E0C7-24EC-3B11-9EE4-D7A9CAFC4DFE}</Project>
+      <Name>subwin</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\shaodd\thirdbinary\OpenGl\subwin_static.vcxproj">
+      <Project>{8686C42C-0729-3A4B-B0B7-EE084EC07DBA}</Project>
+      <Name>subwin_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\shaodd\thirdbinary\OpenGl\timer.vcxproj">
+      <Project>{3265EC34-A7A2-3865-BBD4-EA680783BA41}</Project>
+      <Name>timer</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\shaodd\thirdbinary\OpenGl\timer_callback.vcxproj">
+      <Project>{90EA2A77-F40C-3627-895C-72E37DB9AEE6}</Project>
+      <Name>timer_callback</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\shaodd\thirdbinary\OpenGl\timer_callback_static.vcxproj">
+      <Project>{4ED07BF9-D550-3A62-B224-B2AAA52141BF}</Project>
+      <Name>timer_callback_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\shaodd\thirdbinary\OpenGl\timer_static.vcxproj">
+      <Project>{95D3A473-3FC3-345D-B8AC-966BADB67181}</Project>
+      <Name>timer_static</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
